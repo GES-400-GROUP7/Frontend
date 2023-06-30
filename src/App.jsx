@@ -1,10 +1,14 @@
-import Header from "./components/header";
+// import Header from "./components/header";
+// import Layout from "./components/Layout/Layout";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div>
-      <Header />
-    </div>
+      <div>
+        <Navbar/>
+        <Footer/>
+      </div>
   );
 }
 
