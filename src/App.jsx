@@ -3,6 +3,8 @@
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Blog from "./components/Blog/Blog";
+import Team from "./components/Team/Team"
+import Map from "./components/Map/Map";
 import {FaGreaterThan} from "react-icons/fa"
 import data from "./data";
 import "./App.scss"
@@ -21,6 +23,8 @@ function App() {
   return (
       <div className="App">
         <Navbar/>
+        <Team/>
+        <Map/>
         <div className="card-box">
           <div>
             <div className="card-head">
@@ -32,7 +36,6 @@ function App() {
           </div>
           </div>
         </div>
-        
         <Footer/>
       </div>
   );
