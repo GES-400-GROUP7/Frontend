@@ -1,0 +1,111 @@
+.Map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .head-sec {
+    position: relative;
+    top: 20px;
+    width: 100%;
+
+    .head-txt {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      div {
+        width: 900px;
+        b {
+          text-align: center;
+          font-size: 64px;
+          font-family: Inter;
+          font-style: normal;
+          font-weight: 800;
+          line-height: normal;
+        }
+      }
+    }
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 80px;
+      margin-top: 20px;
+      .box-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        border: 1px solid #335dff;
+        border-radius: 8px;
+        background-color: #335dff;
+        padding: 20px;
+        img {
+          width: 86px;
+          height: 86px;
+        }
+        div {
+          display: block;
+          position: relative;
+          top: -10px;
+          p {
+            color: #91a7ff;
+            font-size: 24px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+          b {
+            color: #fcfcff;
+            font-size: 40px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+          }
+        }
+      }
+      .box-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        border: 1px solid #fd4455;
+        border-radius: 8px;
+        background-color: #fd4455;
+        padding: 20px;
+        img {
+          width: 86px;
+          height: 86px;
+        }
+        div {
+          display: block;
+          position: relative;
+          top: -10px;
+          p {
+            color: #91a7ff;
+            font-size: 24px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+          b {
+            color: #fcfcff;
+            font-size: 40px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+          }
+        }
+      }
+    }
+  }
+
+  .map-section {
+    width: 80%;
+    padding: 20px;
+  }
+}
