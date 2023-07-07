@@ -1,5 +1,7 @@
 // import Header from "./components/header";
 // import Layout from "./components/Layout/Layout";
+import React from 'react';
+import LandingBanner from "./components/LandingBanner/LandingBanner";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Blog from "./components/Blog/Blog";
@@ -23,8 +25,9 @@ function App() {
   return (
       <div className="App">
         <Navbar/>
+        <LandingBanner/>
         <Team/>
-        <Map/>
+        <Map/>        
         <div className="card-box">
           <div>
             <div className="card-head">
@@ -38,6 +41,8 @@ function App() {
         </div>
         <Footer/>
       </div>
+
+  
   );
 }
 
