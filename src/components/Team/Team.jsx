@@ -17,7 +17,7 @@ const CarouselComponent = () => {
             <div>
               <img src="/images/Rectangle 1.jpg" alt="Image 1" />
               <b>Dr. Friday Onudu</b>
-              <p>Head of computer department</p>
+              <p>Head of dept</p>
             </div>
             <div>
               <img src="/images/Rectangle 2.jpg" alt="Image 2" />
