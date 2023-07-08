@@ -26,7 +26,7 @@ function App() {
         <Team/>
         <Map/>
         <div className="card-box">
-          <div>
+          <div className="head-cover">
             <div className="card-head">
             <div><b>Blog</b></div>
             <div className="more"><p>See All Articles </p><span><FaGreaterThan/></span></div>
