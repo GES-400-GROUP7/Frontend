@@ -40,7 +40,7 @@ function Footer() {
               <a href="#">Resources</a>
             </li>
             <li>
-              <a href="#">Contact Us</a>
+              <a href="#">Contact</a>
             </li>
             <li>
               <a href="#">Courses</a>
